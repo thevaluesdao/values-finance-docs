@@ -1,15 +1,18 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index": "What is Values?",
+  "bridge-protocol": "Bridge Protocol",
+  "DAO": "DAO",
+  "governence": "Governence",
+
   "about": {
     "title": "About",
-    "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "display": "hidden"
+  },
+  "Lunch App": {
+    "title": "Lunch App ↗",
+    "type": "page",
+    "href": "https://app.values.finance",
     "newWindow": true
   }
 }
