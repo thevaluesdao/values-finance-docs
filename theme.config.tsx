@@ -46,6 +46,14 @@ const config: DocsThemeConfig = {
       titleTemplate: "%s – Values DOCS",
     };
   },
+  head: (
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="og:title" content="Values DOCS" />
+      <meta property="og:description" content="Official Values documentation" />
+      <link rel="icon" type="image/x-icon" href="/public/favicon.ico"></link>
+    </>
+  ),
 };
 
 export default config;
