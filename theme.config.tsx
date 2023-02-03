@@ -39,7 +39,7 @@ const config: DocsThemeConfig = {
 
   docsRepositoryBase: "https://github.com/thevaluesdao/values-finance-docs",
   footer: {
-    text: "Values DAO",
+    text: "Values DAO // Stand with 🇺🇦",
   },
   useNextSeoProps() {
     return {
@@ -54,6 +54,14 @@ const config: DocsThemeConfig = {
       <link rel="icon" type="image/x-icon" href="/public/favicon.ico"></link>
     </>
   ),
+  banner: {
+    key: "2.0-release",
+    text: (
+      <a href="https://u24.gov.ua/" target="_blank">
+        🇺🇦 Stand with Ukraine. Help now →
+      </a>
+    ),
+  },
 };
 
 export default config;
