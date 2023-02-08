@@ -19,7 +19,7 @@ const config: DocsThemeConfig = {
           fill="white"
         />
       </svg>
-      <span style={{ marginLeft: ".4em", fontWeight: 600 }}>Values DOCS</span>
+      <span style={{ marginLeft: ".4em", fontWeight: 600 }}>Values Docs</span>
     </>
   ),
   project: {
@@ -39,11 +39,11 @@ const config: DocsThemeConfig = {
 
   docsRepositoryBase: "https://github.com/thevaluesdao/values-finance-docs",
   footer: {
-    text: "Values DAO // Stand with 🇺🇦",
+    text: "2023 VALUES DAO",
   },
   useNextSeoProps() {
     return {
-      titleTemplate: "%s – Values DOCS",
+      titleTemplate: "%s – Values Docs",
     };
   },
   head: (
